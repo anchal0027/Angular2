@@ -1,8 +1,16 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-  <h1>
-    Welcome to {{title}}!
-  </h1>
- <h2>Hello World</h2>
+<div>Hello my name is {{name}}.
+   <button (click)="sayMyName()">Say my name</button>
 </div>
-
+<div>
+   <h3>Parent component</h3>
+   <parent-component></parent-component>
+</div>
+<div>
+   <register></register>
+</div>
+<!--  <span *ngIf="data">
+   <div  *ngFor="let dat of data1">
+   
+   {{dat.id}}
+   </div>
+   </span> -->

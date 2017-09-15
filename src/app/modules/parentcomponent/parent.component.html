@@ -1,0 +1,8 @@
+<div>Iam a {{name}}.
+   <button (click)="sayMyName()">Say my name</button>
+</div>
+<div>
+   child data:{{datafromchild}}
+   <h4>child component</h4>
+   <child-component [name]="name1" (sendToParent)="recieveChildData($event)"></child-component>
+</div>
